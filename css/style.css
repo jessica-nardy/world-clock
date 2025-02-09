@@ -1,15 +1,19 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url("world.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
   font-family: sans-serif;
 }
 
 .container {
   max-width: 600px;
   margin: 0 auto;
+  margin-top: 50px;
   display: block;
-  background-color: white;
+  background-color: rgba(213, 213, 220, 0.6);
   padding: 30px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(113, 113, 123, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
 }
 
@@ -19,6 +23,7 @@ select {
   border-radius: 5px;
   width: 600px;
   font-size: 18px;
+  background-color: rgba(213, 213, 220, 0.3);
 }
 
 h1 {
@@ -43,7 +48,7 @@ h2 {
 }
 
 .date {
-  color: rgba(99, 99, 105, 0.6);
+  color: rgba(54, 54, 59, 0.6);
 }
 
 .time {
@@ -58,7 +63,17 @@ h2 {
   top: -3px;
 }
 
+a {
+  color: rgb(63, 55, 111);
+}
+
 footer {
   margin-top: 50px;
   text-align: center;
+  color: rgb(219, 214, 214);
+  font-size: 15px;
+}
+
+footer a {
+  color: rgb(217, 197, 202);
 }
